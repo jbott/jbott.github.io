@@ -10,7 +10,7 @@ layout: default
 
 #### A cooperative text-based horror game
 
-A parody of the [Twitch Plays Pokemon](https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon){:target="_blank} social experiment hacked together in a week. Powered by coffee.
+A parody of the [Twitch Plays Pok&eacute;mon](https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon){:target="_blank} social experiment. Powered by coffee.
 
 - [Project homepage](http://www.twitchinstalls.com/){:target="_blank"}
 - [Github](https://github.com/twitchinstallsarchlinux){:target="_blank"}
