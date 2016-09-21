@@ -3,37 +3,101 @@
 ---
 @charset "utf-8";
 
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$color-text-light-primary: rgba(255,255,255,1);
+$color-text-light-secondary: rgba(255,255,255,0.7);
 
-$spacing-unit:     30px;
+$color-text-dark-primary: rgba(0,0,0,0.87);
+$color-text-dark-secondary: rgba(0,0,0,0.54);
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$color-accent: #FFA500;
+$color-background: #FAFAFA;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+@mixin font-title {
+  font-family: 'Montserrat', sans-serif;
+}
+@mixin font-body {
+  font-family: 'Open Sans', sans-serif;
+}
 
-// Width of the content area
-$content-width:    800px;
+body {
+  @include font-body;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+  color: $color-text-dark-primary;
+  background: $color-background;
 
-// Minima also includes a mixin for defining media queries.
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-// Import partials from the `minima` theme.
-@import "minima";
+.navbar-default {
+  background-color: rgba(0,0,0,0.8);
+  font-size: 18px;
+  border: none;
+
+  .navbar-nav > li > a {
+    color: $color-text-light-secondary;
+
+    &:visited {
+      color: $color-text-light-secondary;
+    }
+
+    &:hover, &:active {
+      color: $color-text-light-primary;
+    }
+  }
+}
+
+.navbar-brand {
+  color: rgba(0,0,0,0.87);
+  font-size: 22px;
+
+  .first {
+    color: $color-text-light-secondary;
+  }
+  .last {
+    color: #FFA500;
+    font-weight: bold;
+  }
+
+  &:hover {
+    .first {
+      color: $color-text-light-primary;
+    }
+  }
+}
+
+
+.content {
+  & > ul {
+    list-style: none;
+    padding-left: 0;
+
+    & > li {
+      display: inline-block;
+    }
+
+    & > li:after {
+      content: '|';
+      padding-left: 0.3em;
+      color: $color-text-dark-secondary;
+    }
+    & > li:last-child:after {
+      content: '';
+    }
+  }
+
+  & > h2 {
+    margin-bottom: -10px;
+  }
+
+  & > h3 {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 0.4em;
+  }
+  & > h4 {
+    display: inline-block;
+    margin-top: 0;
+    color: $color-text-dark-secondary;
+  }
+}
