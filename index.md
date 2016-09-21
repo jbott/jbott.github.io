@@ -18,9 +18,9 @@ I am a Full Stack Software Developer and Entrepreneur with a passion for User Ex
 
 #### A cooperative text-based horror game
 
-A parody of the [Twitch Plays Pok&eacute;mon](https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon){:target="_blank} social experiment. Powered by coffee.
+A parody of the [Twitch Plays Pok&eacute;mon](https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon){:target="_blank"} social experiment. Powered by coffee.
 
-- [Project homepage](http://www.twitchinstalls.com/){:target="_blank"}
+- [Project homepage](https://www.twitchinstalls.com/){:target="_blank"}
 - [Github](https://github.com/twitchinstallsarchlinux){:target="_blank"}
 - [Ars Technica](http://arstechnica.com/information-technology/2015/10/twitchs-latest-idiotic-adventure-installing-linux/){:target="_blank"}
 
