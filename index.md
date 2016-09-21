@@ -2,6 +2,14 @@
 layout: default
 ---
 
+## About Me
+
+---
+
+I am a Full Stack Software Developer and Entrepreneur with a passion for User Experience design.
+
+
+
 ## Projects
 
 ---
