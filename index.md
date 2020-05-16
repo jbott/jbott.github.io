@@ -6,7 +6,7 @@ layout: default
 
 ---
 
-I am a Full Stack Software Developer, with a focus on embedded systems and full system architecture.
+I am a full stack software engineer, with a focus on embedded systems and full system architecture.
 
 
 
@@ -34,12 +34,3 @@ A parody of the [Twitch Plays Pok&eacute;mon](https://en.wikipedia.org/wiki/Twit
 - [Project homepage](https://www.twitchinstalls.com/){:target="_blank"}
 - [Github](https://github.com/twitchinstallsarchlinux){:target="_blank"}
 - [Ars Technica](https://arstechnica.com/information-technology/2015/10/twitchs-latest-idiotic-adventure-installing-linux/){:target="_blank"}
-
-
-### Go LED Stream
-
-#### Controlling WS2812 LEDs via the internet
-
-A simple project to learn the [Go programming language](https://golang.org/){:target="_blank"}.
-
-- [Github](https://github.com/jbott/go-led-stream){:target="_blank"}
